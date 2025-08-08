@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Center the entire form and content */
+.login-container {
+    margin-top: 70px; /* Ensures the form is below the navbar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 20px; /* Padding for smaller screens */
+    box-sizing: border-box;
+  }
+  
+  /* Style for the heading */
+  .login-title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #414B56; /* Match the color to Register form */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  /* Center the form and set a max width */
+  .login-form {
+    max-width: 500px; /* Set the form width */
+    width: 100%; /* Ensure it takes up 100% of available space */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for TextField inputs */
+  .login-input {
+    margin-bottom: 15px; /* Increased space between inputs */
+    width: 100%; /* Full width for the inputs */
+    padding: 12px 15px; /* Padding for a comfortable feel */
+    border: 1px solid #ccc; /* Lighter border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f9f9f9; /* Light background for inputs */
+    box-sizing: border-box; /* Ensure padding does not overflow */
+  }
+  
+  /* Focus style for inputs */
+  .login-input:focus {
+    outline: none;
+    border-color: #4CAF50; /* Green border on focus */
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.4); /* Green glow effect */
+  }
+  
+  /* Style for the submit button */
+  .login-button {
+    margin-top: 20px; /* Margin between inputs and button */
+    width: 100%; /* Full-width button */
+    padding: 12px;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+  }
+  
+  /* Disabled button */
+  .login-button:disabled {
+    background-color: #a5d6a7; /* Lighter green for disabled */
+    cursor: not-allowed;
+  }
+  
+  /* Success and error messages */
+  .success-message {
+    margin-top: 20px;
+    color: green;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Style for Google sign-in button (if needed in the future) */
+  .google-signin-button {
+    margin-top: 20px;
+  }
+  .register-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .register-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .register-link:hover {
+    color: #0056b3;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-top: -15px; /* Reduce space between password field and forgot password link */
+    margin-bottom: 10px; /* Adjust spacing between the link and the button */
+}
+  .forgot-password-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .forgot-password-link:hover {
+    color: #0056b3;
+  }

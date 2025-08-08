@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.users-container {
+    width: 100vw;
+    padding-top: 100px;
+  }
+  
+  .users-table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+  
+  .users-table th, .users-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .users-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  .delete-message {
+    color: green;
+    font-weight: bold;
+  }

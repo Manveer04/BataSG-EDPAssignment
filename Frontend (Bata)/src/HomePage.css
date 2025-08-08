@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1, h2, .Shop {
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage-container {
+    position: relative;
+    width: 98.8vw; /* Adjust to the width of your image */
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 70px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 700px;
+}
+
+.image-container h1, .image-container h2 {
+    position: absolute;
+    color: white; /* Adjust text color as needed */
+    text-shadow: 1px 1px 2px black; /* Optional: add text shadow for better readability */
+}
+
+.image-container h1 {
+    top: 0px; /* Adjust as needed */
+    left: 11%; /* Adjust as needed */
+    font-size: 70px;
+}
+
+.image-container h2 {
+    bottom: 22%; /* Adjust as needed */
+    left: 11%; /* Adjust as needed */
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Shop {
+    position: absolute;
+    bottom: 10%; /* Adjust as needed */
+    left: 11%; /* Adjust as needed */
+    background-color: #00B700;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 50px; /* Adjust the value for more or less rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Shop:hover {
+    background-color: #009900; /* Darker shade for hover effect */
+}
+
+.homeshop {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: "30px";
+}
+
+.shop-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+}
+
+.shop-card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.shop-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.show-more-btn {
+    padding: 13px 30px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.show-more-btn:hover {
+    background-color: #414B56;
+    color: white;
+}
+
+.featured {
+    height: 500px;
+    padding-top: 50px;
+
+    padding-bottom: 40px;
+}
+
+.newsletter {
+    height: 310px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    background-color: #E2001A;
+}
+
+.newsletter h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.newsletter h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscription-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 25px; /* Rounded edges for the entire bar */
+    width: 100%;
+    max-width: 550px; /* Limit the width */
+}
+
+.subscription-input {
+    flex: 1; /* Take up available space */
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 25px 0 0 25px; /* Rounded left edges */
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscription-input::placeholder {
+    color: #aaa; /* Placeholder text color */
+}
+
+.subscription-button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #000; /* Black button */
+    color: white; /* White text */
+    border-radius: 0 25px 25px 0; /* Rounded right edges */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscription-button:hover {
+    opacity: 0.9; /* Slightly transparent on hover */
+}
+
+.footer {
+    background-color: #010A10; /* Dark background */
+    color: white; /* White text */
+    padding: 30px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #d50000; /* Hover effect with red color */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #d50000; /* Hover effect with red color */
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}

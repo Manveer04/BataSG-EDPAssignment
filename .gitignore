@@ -1,0 +1,28 @@
+# Node
+node_modules/
+dist/
+build/
+.next/
+.eslintcache
+
+# Env/Secrets
+.env
+*.env.*
+*.pem
+*.key
+*.p12
+*.crt
+*.der
+*.cer
+*.jks
+*.keystore
+*.pfx
+client_secret.json
+service-account*.json
+credentials*.json
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.shopping-cart{
+    position: relative;
+    width: 98.8vw; /* Adjust to the width of your image */
+    margin-top: 90px;
+    color: #414B56;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 50px;
+}
+
+.heading{
+    margin-left: 5.2%;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 4%;
+    margin-top: 2%;
+}
+
+.cart-items {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 140px;
+    margin-right: 10px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0px; /* Use a small gap between the elements */
+}
+
+.product-details h4 {
+    margin: 0; /* Remove extra margin */
+    font-size: 16px; /* Adjust font size if needed */
+    font-weight: bold;
+}
+
+.sub-details {
+    font-size: 14px;
+    margin: 0; /* Remove margin */
+    font-weight: normal;
+}
+
+.edit-details {
+    color: #007BFF; /* Example: Blue color for link-like appearance */
+    font-size: 14px;
+    margin: 0; /* Remove margin */
+    cursor: pointer;
+}
+
+.edit-details:hover {
+    text-decoration: underline;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 4px;
+    max-width: 90px;
+}
+
+.quantity-button {
+    background-color: #fff;
+    border: none;
+    font-size: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+.quantity-input {
+    width: 20px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background: transparent;
+    outline: none;
+}
+
+.quantity-container:hover {
+    border-color: #999;
+}
+
+
+.save-for-later, .remove-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-summary {
+    width: 350px;
+    height: 485px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.cart-summary h2 {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.cart-summary ul {
+    list-style: none;
+    font-size: 15px;
+    padding: 0;
+}
+
+.cart-summary ul li {
+    margin-bottom: 10px;
+}
+
+.subtotal {
+    font-size: 17px;
+}
+
+.subtotal-text {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.subtotal-text2 {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.subtotal-text3 {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.promo-code-section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.promo-code-section h3 {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.promo-code-input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.promo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.promo-apply-btn {
+    padding: 10px 20px;
+    background-color: #d6dafe;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.promo-apply-btn:hover {
+    background-color: #c0c8f2;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.checkout-btn {
+    background-color: #00B700;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.continue-shopping {
+    background: none;
+    border: none;
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

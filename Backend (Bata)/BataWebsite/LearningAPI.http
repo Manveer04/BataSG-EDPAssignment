@@ -1,0 +1,169 @@
+﻿@BataWebsite_HostAddress = https://localhost:7004
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI1IiwidW5pcXVlX25hbWUiOiJCcmFuZGVuIiwiZW1haWwiOiJicmFuZGVudHVuZzJAZ21haWwuY29tIiwibmJmIjoxNzM2MTEwMDUyLCJleHAiOjE3Mzg3MDIwNTIsImlhdCI6MTczNjExMDA1Mn0.0Ffd7r4ZPtSqmvQsgk3WbC7tzky6isb7STITpu7grNU
+
+###
+
+GET {{BataWebsite_HostAddress}}/tutorial?search=hello
+
+###
+
+GET {{BataWebsite_HostAddress}}/tutorial/1
+
+###
+
+POST {{BataWebsite_HostAddress}}/user/register
+Content-Type: application/json
+
+{
+ "name": "Li Haiyun",
+ "email": "li_haiyun@nyp.edu.sg",
+ "password": "password123"
+}
+
+###
+
+POST {{BataWebsite_HostAddress}}/user/login
+Content-Type: application/json
+
+{
+ "email": "brandentung2@gmail.com",
+ "password": "12345678A"
+}
+
+###
+
+GET {{BataWebsite_HostAddress}}/user/auth
+Authorization: Bearer {{token}}
+
+###
+POST {{BataWebsite_HostAddress}}/tutorial
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+ "title": "Web API",
+ "description": "Happy coding :)"
+}
+
+###
+
+PUT {{BataWebsite_HostAddress}}/tutorial/2
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+ "title": "My Story",
+ "description": "Your Song ❤"
+}
+
+###
+
+DELETE {{BataWebsite_HostAddress}}/tutorial/2
+Authorization: Bearer {{token}}
+
+###
+
+# Branden/Products
+
+GET {{BataWebsite_HostAddress}}/product
+
+###
+
+GET {{BataWebsite_HostAddress}}/product/2
+
+###
+
+POST {{BataWebsite_HostAddress}}/product
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "Name": "BATA Men Dress Shoes",
+  "Description": "Comfortable and Stylish",
+  "Image": "Product Image",
+  "Price": "40.00",
+  "Color": "Blue",
+  "Size": "5",
+  "Stock": 100,
+  "AmtSold": 0
+}
+
+
+###
+
+PUT {{BataWebsite_HostAddress}}/product/2
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "Name": "BATA Men Dress Shoes",
+  "Description": "Comfortable and Stylish",
+  "Image": "Product Image",
+  "Price": "40.00",
+  "Color": "Blue",
+  "Size": "5",
+  "Stock": 100,
+  "AmtSold": 0
+}
+
+###
+
+DELETE {{BataWebsite_HostAddress}}/product/1
+Authorization: Bearer {{token}}
+###
+
+# Cart
+
+GET {{BataWebsite_HostAddress}}/cart
+Authorization: Bearer {{token}}
+
+###
+
+POST {{BataWebsite_HostAddress}}/cart
+Authorization: Bearer {{token}}
+
+
+###
+
+PUT {{BataWebsite_HostAddress}}/cart/clear
+Authorization: Bearer {{token}}
+
+###
+
+# CartItem
+
+GET {{BataWebsite_HostAddress}}/cartitem
+Authorization: Bearer {{token}}
+
+###
+
+POST {{BataWebsite_HostAddress}}/cartitem
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "productId": 1,
+  "quantity": 2
+}
+
+
+###
+
+PUT {{BataWebsite_HostAddress}}/cartitem/2
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "productId": 1,
+  "quantity": 5
+}
+
+
+
+###
+
+DELETE {{BataWebsite_HostAddress}}/cartitem/2
+Authorization: Bearer {{token}}
+
+###
+

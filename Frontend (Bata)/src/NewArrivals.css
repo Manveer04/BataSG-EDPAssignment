@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.new-arrivals{
+    position: relative;
+    width: 98.8vw; /* Adjust to the width of your image */
+    margin-top: 90px;
+    color: #414B56;
+}
+
+.title{
+    text-align: center;
+}
+
+.new-arrivals-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%; /* Adjust the gap between cards as needed */
+    padding-left: 6%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #414B56;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,157 @@
+/* Scope all styles under .view-address-page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.view-address-page{
+  margin-top: 80px;
+  padding: 10px;
+  width: 97.5vw; /* Full viewport width */
+  margin-bottom: 30px;
+}
+.view-address-page .view-address-container {
+  width: 95%;
+  box-sizing: border-box; /* Include padding in the width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.view-address-page .view-address-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.view-address-page .return-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;  /* Vertically align text and arrow */
+  justify-content: center; /* Ensure horizontal centering */
+  padding: 0px;
+}
+
+
+.view-address-page .return-button .arrow {
+  margin-right: 5px;
+}
+
+.view-address-page .title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.view-address-page .add-address-button {
+  padding: 10px 15px;
+  background: #007bff; /* Blue background */
+  border: none;
+  color: #fff;         /* Text color */
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; /* Align icon and text horizontally */
+  justify-content: center;
+  margin-top: 10px
+}
+
+.view-address-page .add-address-button svg {
+  margin-right: 8px;    /* Space between icon and text */
+}
+
+.view-address-page .add-address-button:hover {
+  background: #0056b3;  /* Darker blue on hover */
+}
+
+
+.view-address-page .error-message {
+  color: red;
+}
+
+.view-address-page .address-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /* Remove table-layout fixed */
+}
+
+.view-address-page .address-table th,
+.view-address-page .address-table td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Header style */
+.view-address-page .address-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.view-address-page .address-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Adjust column widths */
+.view-address-page .address-table td.name {
+  width: 20%; /* Adjusted width for name column */
+}
+
+.view-address-page .address-table td.unit-number {
+  width: 15%; /* Adjusted width for unit number column */
+}
+
+.view-address-page .address-table td.street {
+  width: 35%; /* Adjusted width for street column */
+}
+
+.view-address-page .address-table td.postal-code {
+  width: 12%; /* Adjusted width for postal code column */
+}
+
+.view-address-page .address-table td.actions {
+  width: 18%; /* Adjusted width for actions column */
+}
+
+
+/* Edit and Delete Button Styling */
+.view-address-page .edit-button,
+.view-address-page .delete-button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  min-width: 80px;  /* Ensure buttons are same width */
+  margin-right: 10px; /* Space between buttons */
+}
+
+/* Edit Button Styling */
+.view-address-page .edit-button {
+  background: #45a049;
+  color: white;
+}
+
+.view-address-page .edit-button:hover {
+  background: #3d8b3d;
+}
+
+/* Delete Button Styling */
+.view-address-page .delete-button {
+  background: #e74c3c;
+  color: white;
+}
+
+.view-address-page .delete-button:hover {
+  background: #c0392b;
+}

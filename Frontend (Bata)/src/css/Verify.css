@@ -1,0 +1,76 @@
+/* Apply styles only to the OTP container */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh; /* Ensures it takes full height of the viewport */
+    background-color: #f7fafc; /* Light gray background */
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .otp-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333; /* Dark text for contrast */
+  }
+  
+  .otp-input {
+    width: 30%; /* Adjusted width for better usability */
+    padding: 12px;
+    font-size: 1.2em;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .otp-input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+  }
+  
+  .otp-button {
+    padding: 12px 24px;
+    font-size: 1.1em;
+    background-color: #3b82f6; /* Blue background */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 10%; /* Adjusted width for button consistency */
+  }
+  
+  .otp-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: #d9534f;
+    font-size: 1.1em;
+    font-weight: bold; /* Error message emphasis */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .otp-container {
+      padding: 15px;
+    }
+    
+    .otp-input {
+      width: 70%; /* Make the input wider on small screens */
+    }
+    
+    .otp-button {
+      width: 70%; /* Adjust button width on small screens */
+    }
+  }
+  

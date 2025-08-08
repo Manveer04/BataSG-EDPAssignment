@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\models\\orderassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:models\\orderassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\controllers\\deliveryagentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:controllers\\deliveryagentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\controllers\\fulfilmentstaffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:controllers\\fulfilmentstaffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\controllers\\jobapplicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:controllers\\jobapplicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\models\\fulfilmentstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:models\\fulfilmentstaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\learningapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:learningapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\learned-skill-450218-j4-fc111c983f58.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:learned-skill-450218-j4-fc111c983f58.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|c:\\users\\tuf_f15\\downloads\\edp-final-main (3) (integrated) (1)\\backend (bata)\\batawebsite\\migrations\\20250220110856_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23B63E25-DA25-4CFE-B157-535BFCC4EF74}|BataWebsite.csproj|solutionrelative:migrations\\20250220110856_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{66f449b5-c823-40bc-9016-02b4d06a1a8e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WarehouseController.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\WarehouseController.cs",
+              "RelativeToolTip": "Controllers\\WarehouseController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAUwL0AAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T20:27:41.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAOACAAAAAAAAAAAQwBEDAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:17:42.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliveryAgentController.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\DeliveryAgentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeliveryAgentController.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\DeliveryAgentController.cs",
+              "RelativeToolTip": "Controllers\\DeliveryAgentController.cs",
+              "ViewState": "AgIAANoBAAAAAAAAAAAIwO0BAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:32:05.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADQAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T12:26:59.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderAssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Models\\OrderAssignmentService.cs",
+              "RelativeDocumentMoniker": "Models\\OrderAssignmentService.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Models\\OrderAssignmentService.cs",
+              "RelativeToolTip": "Models\\OrderAssignmentService.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAIwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T16:36:35.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "MyDbContext.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\MyDbContext.cs",
+              "RelativeToolTip": "MyDbContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv1IAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:57:36.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FulfilmentStaff.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Models\\FulfilmentStaff.cs",
+              "RelativeDocumentMoniker": "Models\\FulfilmentStaff.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Models\\FulfilmentStaff.cs",
+              "RelativeToolTip": "Models\\FulfilmentStaff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:24:42.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobApplicantController.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\JobApplicantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JobApplicantController.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\JobApplicantController.cs",
+              "RelativeToolTip": "Controllers\\JobApplicantController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAQwJ8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:06:20.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FulfilmentStaffController.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\FulfilmentStaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FulfilmentStaffController.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Controllers\\FulfilmentStaffController.cs",
+              "RelativeToolTip": "Controllers\\FulfilmentStaffController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:41:32.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250220110856_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Migrations\\20250220110856_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250220110856_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\Migrations\\20250220110856_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250220110856_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T11:08:57.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LearningAPI.http",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\LearningAPI.http",
+              "RelativeDocumentMoniker": "LearningAPI.http",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\LearningAPI.http",
+              "RelativeToolTip": "LearningAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-19T16:20:16.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "learned-skill-450218-j4-fc111c983f58.json",
+              "DocumentMoniker": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\learned-skill-450218-j4-fc111c983f58.json",
+              "RelativeDocumentMoniker": "learned-skill-450218-j4-fc111c983f58.json",
+              "ToolTip": "C:\\Users\\TUF_F15\\Downloads\\EDP-Final-main (3) (Integrated) (1)\\Backend (Bata)\\BataWebsite\\learned-skill-450218-j4-fc111c983f58.json",
+              "RelativeToolTip": "learned-skill-450218-j4-fc111c983f58.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T16:20:16.606Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

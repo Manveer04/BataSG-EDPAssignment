@@ -1,0 +1,52 @@
+/* Apply styles only to the LoginOptions component */
+.login-options-page {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 99vw;
+    background-color: #f7fafc; /* light gray background */
+    margin-top: 70px;
+  }
+  
+  .login-button2 {
+    background-color: #3b82f6; /* blue */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 16px;
+    width: 12%;
+    left: 20%;
+    top: 40%;
+    transition: background-color 0.3s;
+    position: absolute;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-button2:hover {
+    background-color: #2563eb; /* darker blue on hover */
+  }
+  
+  .staff-login-button {
+    background-color: #10b981; /* green */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 16px;
+    width: 10%;
+    right: 20%;
+    top: 40%;
+    transition: background-color 0.3s;
+    position: absolute;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .staff-login-button:hover {
+    background-color: #059669; /* darker green on hover */
+  }
+  
